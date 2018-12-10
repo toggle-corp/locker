@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": ".",
+    "outDir": "./build",
+    "sourceMap": true,
+    "declaration": true,
+    "diagnostics": true,
+    "extendedDiagnostics": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["dom", "es6", "es7", "es2017.object"],
+    "module": "esnext",
+    "moduleResolution": "node",
+
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+
+    "pretty": true,
+    "removeComments": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "scripts",
+    "acceptance-tests",
+    "webpack",
+    "jest"
+  ]
+}

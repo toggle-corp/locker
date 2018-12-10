@@ -1,0 +1,40 @@
+{
+  "name": "@togglecorp/locker",
+  "version": "1.0.2",
+  "description": "A distributed lock for tabs and windows",
+  "main": "build/index.js",
+  "typings": "build/src/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --config webpack.dev.config.js --mode=development",
+    "prepare": "webpack --config webpack.prod.config.js --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toggle-corp/locker.git"
+  },
+  "author": "tnagorra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toggle-corp/locker/issues"
+  },
+  "homepage": "https://github.com/toggle-corp/locker#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "awesome-typescript-loader": "^5.2.0",
+    "circular-dependency-plugin": "^5.0.2",
+    "jest": "^23.5.0",
+    "ts-jest": "^23.1.4",
+    "ts-node": "^7.0.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.2.2",
+    "typescript-language-server": "^0.3.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "tslint": "^5.11.0",
+    "tslint-config-standard": "^8.0.1"
+  }
+}
